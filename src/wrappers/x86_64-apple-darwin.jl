@@ -9,13 +9,13 @@ function __init__()
     JLLWrappers.@generate_init_header(Ncurses_jll)
     JLLWrappers.@init_library_product(
         libhistory,
-        "lib/libhistory.8.2.dylib",
+        "lib/libhistory.8.3.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libreadline,
-        "lib/libreadline.8.2.dylib",
+        "lib/libreadline.8.3.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
