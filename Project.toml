@@ -1,16 +1,14 @@
+version = "8.3.4"
 name = "Readline_jll"
 uuid = "05236dd9-4125-5232-aa7c-9ec0c9b2c25a"
-version = "8.3.3+0"
 
 [deps]
-JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-Ncurses_jll = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+Ncurses_jll = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
 
 [compat]
-JLLWrappers = "1.7.0"
 julia = "1.6"
-Ncurses_jll = "6.5.1"
-Libdl = "< 0.0.1, 1"
-Artifacts = "< 0.0.1, 1"
+LazyJLLWrappers = "1.2.7"
+Ncurses_jll = "6.6"
